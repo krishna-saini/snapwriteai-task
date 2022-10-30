@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+  }
+  
+  input{
+      border: none;
+      box-shadow: 0px 2px 7px rgb(247, 249, 103);
+      outline: none;
+      height:40px;
+      padding: 0 10px;
+  }
+  
+  textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px #aaa;
+    padding: 0 10px;
+  }
+  
