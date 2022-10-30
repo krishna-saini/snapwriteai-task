@@ -34,7 +34,7 @@ function ImageUploadSection() {
     <div className={classes.container}>
       {!imageURLs.length && (
         <div className={classes.beforeUpload}>
-          <img src={uploadImg} className={classes.fakeImg} alt="upload image sign" />
+          <img src={uploadImg} className={classes.fakeImg} alt="upload sign" />
           <input
             type="file"
             accept="image/jpeg, image/png"
@@ -49,7 +49,7 @@ function ImageUploadSection() {
           src={imageURLs}
           key={Math.random().toString}
           className={classes.imgUpload}
-        alt="uploaded image"/>
+        alt="uploaded img"/>
       )}
     </div>
   );
